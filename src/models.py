@@ -3,14 +3,7 @@ from sqlalchemy import String, Boolean, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 
-
-
 db = SQLAlchemy()
-
-
-
-
-
 
 class User(db.Model):
     __tablename__ = "user"
